@@ -117,17 +117,17 @@ footer {
 /* Handphone */
 @media only screen and (max-width: 768px) {
   .sidebar {
-    width: 100%; /* Sidebar akan memenuhi lebar layar di perangkat mobile */
+    width: 100%;
     height: auto;
     position: fixed;
     top: 0;
-    left: -100%; /* Sidebar tersembunyi di luar layar */
+    left: -100%; 
     transition: left 0.3s ease;
-    z-index: 1050; /* Untuk memastikan sidebar muncul di atas elemen lain */
+    z-index: 1050;
   }
 
   .sidebar.show {
-    left: 0; /* Ketika tombol hamburger diklik, sidebar muncul */
+    left: 0; 
   }
 
   .main-content {
@@ -144,17 +144,14 @@ footer {
     padding: 5px;
   }
 
-  /* Adjust font size for small screens */
   h3 {
     font-size: 1.5rem;
   }
 
-  /* Carousel image size adjustment */
   .carousel-img {
     height: 300px;
   }
 
-  /* Card layout adjustment */
   .card {
     margin-bottom: 20px;
   }
